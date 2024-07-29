@@ -1,0 +1,132 @@
+header {
+  padding: 26px 1cm 20px 1cm;
+  border: thin solid #fdfdfd;
+  border-bottom-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdfdfd;
+  color: #000;
+}
+
+.hamburger {
+  font-size: 1cm;
+  cursor: pointer;
+  border-radius: 30%;
+  padding: 0;
+  margin: 0;
+}
+
+.hamburger:hover {
+  color: #FBB146;
+}
+
+.search-bar {
+  margin: 0cm;
+
+  margin-right: 13cm;
+
+  display: flex;
+  align-items: center; /* Make sure the items are aligned center */
+}
+
+.search-bar input {
+  margin: 0px;
+  padding: 10px;
+  padding-left: 1cm;
+  padding-right: 10cm;
+  text-align: left;
+  box-shadow: 1px 3px #656565;
+  border-radius: 5px;
+  border: 5px solid #FBB146;
+  width: 100%; /* Take full width of the search bar container */
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.user-icon {
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 0;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #52357c;
+  transition: left 0.3s;
+  color: white;
+  padding-top: 20px;
+  z-index: 1000; /* Ensure this is higher than other content */
+}
+
+.side-menu.open {
+  left: 0;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu ul li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.side-menu ul li:hover {
+  background-color: #2d0d5a;
+
+  color: #FBB146;
+}
+
+.side-menu ul li a {
+  color: white; /* Default link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.side-menu ul li a:visited {
+  color: white; /* Change this to the color you prefer for visited links */
+}
+
+.side-menu ul li a:hover {
+  background-color: #2d0d5a;
+  color: #FBB146; /* Change this to the hover color you prefer */
+}
+
+.side-menu ul li a:active {
+  color: #FBB146; /* Change this to the color you prefer when the link is active/clicked */
+}
+
+
+.dashboard-header {
+  border: thin solid #fdfdfd;
+  border-bottom-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  padding-right: 5cm;
+}
+.menu-icon {
+  width: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+

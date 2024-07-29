@@ -1,0 +1,156 @@
+/* Ensure the content area is properly pushed by the side menu when open */
+.content {
+  margin: 0;
+  padding: 0;
+  transition: margin-left 0.3s;
+}
+
+.dashboard-title {
+  margin: 0;
+  padding: 0 0 0 30px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  padding-left: 2cm;
+  margin: 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 2cm;
+  margin-right: 1cm;
+  border: 2px solid #0A694C;
+  border-radius: 5px;
+  text-align: left;
+  width: 8cm;
+}
+
+.card h3 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 5px 0 2px 17px;
+  font-size: 24px;
+}
+
+.card-content {
+  width: 8cm;
+}
+
+.icon {
+  margin-left: 5cm;
+  width: 50px;
+}
+
+.card p {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.info-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px 40px;
+  margin-top: 10px;
+  background-color: #52357c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.info-button img {
+  width: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.info-button-2, .info-button-3 {
+  background-color: #110C60;
+}
+
+.dashboard-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 4cm;
+}
+
+.dashboard-main > div {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #52357c; /* Border color */
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+}
+
+.dashboard-main h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: absolute;
+  top: -30px; /* Adjust the value as needed */
+  left: 20px; /* Align with the content padding */
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.Dashboard-ratings-reviews-stars ul, .Dashboard-food-seekers ul, .Dashboard-food-establishments ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Dashboard-ratings-reviews-stars li, .Dashboard-food-seekers li, .Dashboard-food-establishments li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.Dashboard-ratings-reviews-stars span {
+  margin-left: auto;
+  font-weight: bold;
+  color: #FFD700; /* Gold color for stars */
+}
+
+.Dashboard-ratings-reviews-stars li {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Dashboard-ratings-reviews-stars li > span {
+  margin-left: 0;
+}
+
+.Dashboard-food-seekers li, .Dashboard-food-establishments li {
+  flex-direction: row;
+  align-items: center;
+}
+
+.Dashboard-food-seekers li:before, .Dashboard-food-establishments li:before {
+  content: "\1F464"; /* Unicode for user icon */
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.Dashboard-food-seekers li {
+  font-weight: bold;
+}

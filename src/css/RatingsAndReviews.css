@@ -1,0 +1,27 @@
+.Actual-ratings-reviews {
+  width: 80%;
+  margin: auto;
+}
+
+.Actual-ratings-reviews h2 {
+  margin-bottom: 20px;
+  color: #006400;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+

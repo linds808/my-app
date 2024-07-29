@@ -1,0 +1,59 @@
+.food-establishments {
+  padding: 0px;
+  padding-top:1cm ;
+  padding-bottom: 4cm;
+  padding-left: 1cm;
+  padding-right: 1cm;
+
+}
+
+.food-establishments h2 {
+  margin-bottom: 20px;
+  color: #006400;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  color:#000000;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #FFFFFF;
+  border: 1px solid #ccc;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.tool-button {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tool-button.edit {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.tool-button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+

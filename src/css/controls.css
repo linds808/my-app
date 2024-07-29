@@ -1,0 +1,28 @@
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFCA7E;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 1cm;
+ 
+  }
+  
+  .controls label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .controls select {
+    margin: 0 10px;
+    padding: 5px;
+  }
+  
+  .controls input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  

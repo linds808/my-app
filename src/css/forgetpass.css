@@ -1,0 +1,117 @@
+/*(start) FORGOT PASSWORD CSS*/
+
+.login-container-forgetpass {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .logo-container-forgetpass {
+    margin: 0px;
+  }
+  
+  .logo-forgetpass {
+    margin: 0px;
+    width:-1cm; /* Adjusted width for better fit */
+    height: auto;
+  }
+  
+  .login-form-forgetpass {
+    margin: 0px;
+    background-color: #fffef1;
+    padding: 0cm;
+    padding-top: -1cm;
+    padding-bottom: 2cm;
+    padding-left: 8cm;
+    padding-right: 8cm;
+    border-radius: 10px;
+    border: 5px solid #110C60; /* Thicker border */
+    text-align: center;
+  }
+  
+  
+  /*Administrator text*/
+  .login-form-forgetpass {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px; /* Adjusted font size for better fit */
+    font-weight: 700; /* Corrected font weight */
+    font-family: "Inter", Times, serif;
+    color: #9096A1;
+  }
+  
+
+.please-enter{
+    font-family: "Inter", Times, serif;
+    font-size: 16px;
+    font-weight: lighter;
+
+
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  .Email-input{
+    margin:0px;
+    margin-top: 10px;
+
+    padding: 0px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    padding-left:80px;
+    padding-right:80px;
+ 
+
+    border: 3px solid #FBB146; /* Thicker border */
+    border-radius: 10px;
+
+    font-weight: bold;
+    font-size: 16px; /* Adjusted font size for better fit */
+    font-family: "Inter", Times, serif;
+
+    text-align: center;
+
+  }
+  
+.e{
+  margin:0px;
+  padding:0px;
+  margin-top: 1px;
+  font-size: small;
+  color: #000000;
+  
+}
+
+
+
+  .submit-email-button{
+    margin: 10px;
+
+    padding: 0px;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left:90px;
+    padding-right:90px;
+
+    background-color: #110C60;
+    color: #fafbfb;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Inter", Times, serif;
+
+    cursor: pointer;
+
+  }
+
+  .submit-email-button:hover{
+    background-color: #FBB146;
+    color:#000000;
+  }

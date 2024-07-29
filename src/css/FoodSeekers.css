@@ -1,0 +1,52 @@
+
+.seeker-row {
+  background-color: #FFFFFF;
+}
+
+.food-seekers {
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  color: #FFA500; /* Orange color for heading */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+
+
+.page-buttons button {
+  margin: 0 5px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button:active {
+  background-color: #ccc;
+}
+
+

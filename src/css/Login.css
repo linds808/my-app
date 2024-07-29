@@ -1,0 +1,113 @@
+.login-container {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.logo-container {
+  margin: 0px;
+}
+
+.logo {
+  margin: 0px;
+  width: -1cm; /* Adjusted width for better fit */
+  height: auto;
+}
+
+.login-form {
+  margin: 0px;
+  background-color: #fffef1;
+  padding: 0cm;
+  padding-top: -1cm;
+  padding-bottom: 2cm;
+  padding-left: 8cm;
+  padding-right: 8cm;
+  border-radius: 10px;
+  border: 5px solid #110C60; /* Thicker border */
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px; /* Adjusted font size for better fit */
+  font-weight: 700; /* Corrected font weight */
+  font-family: "Inter", Times, serif;
+  color: #9096A1;
+}
+
+.input-container {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container input {
+  width: 80%; /* Adjusted width for better fit */
+  padding: 10px;
+  border: 3px solid #FBB146; /* Thicker border */
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px; /* Adjusted font size for better fit */
+  font-family: "Inter", Times, serif;
+  text-align: center;
+}
+
+.forgot-password {
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.forgot-password a {
+  color: #28292B;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.login-button, .create-account-button {
+  width: 80%; /* Adjusted width for better fit and spacing */
+  padding: 10px;
+  margin: 10px 0; /* Adjusted margin to ensure proper spacing */
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px; /* Adjusted font size for better fit */
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline */
+}
+
+.login-button {
+  background-color: #FFFFFF;
+  color: #45474B;
+  border: 3px solid #110C60; 
+}
+
+.login-button:hover {
+  background-color: #FBB146;
+  color: rgb(255, 255, 255);
+}
+
+.create-account-button {
+  background-color: #110C60;
+  color: #fafbfb;
+  border: 3px solid #110C60; 
+  text-decoration: none; /* Remove underline */
+}
+
+.create-account-button:hover {
+  background-color: #FBB146;
+  color: #28292B;
+}

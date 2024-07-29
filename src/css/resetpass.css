@@ -1,0 +1,109 @@
+.login-container-reset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo-container-reset img {
+  margin: 0;
+  width: auto; /* Adjusted width for better fit */
+  height: auto;
+}
+
+.login-form-reset {
+  margin: 0;
+  background-color: #fffef1;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 2cm;
+  padding-left: 8cm;
+  padding-right: 8cm;
+  border-radius: 10px;
+  border: 5px solid #110C60; /* Thicker border */
+  text-align: center;
+}
+
+h2 {
+  font-family: "Inter", Times, serif;
+  font-size: 24px;
+  color: #9096A1;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "Inter", Times, serif;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.password-container-reset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Space between input fields */
+  margin: 20px 0; /* Adjust as needed */
+  padding: 0;
+}
+
+.input-container-reset {
+  position: relative;
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+}
+
+.password-input-reset {
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom:10px ;
+  padding-left:70px ;
+  padding-right:70px ;
+  border: 3px solid #FBB146; /* Thicker border */
+  border-radius:8px;
+  font-weight: bold;
+  font-size: 16px; /* Adjusted font size for better fit */
+  font-family: "Inter", Times, serif;
+  text-align: center;
+}
+
+.submit-password-button-reset {
+  
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom:10px ;
+  padding-left:130px ;
+  padding-right:130px ;
+
+  margin-top: 10px; /* Add margin to space between buttons */
+
+  border: 3px solid #0e0950; /* Thicker border */
+  border-radius: 14px;
+
+  font-weight: bold;
+  font-size: 26px; /* Adjusted font size for better fit */
+  font-family: "Inter", Times, serif;
+  font-weight: bolder;
+  color:#fffef1;
+
+  background-color: #0e0950; /* Ensure background color is white */
+
+  text-align: center;
+
+}
+
+.submit-password-button-reset:hover {
+  background-color: #FBB146;
+  color:#000000
+}
+
+.toggle-password-reset {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px; /* Adjust size as needed */
+  color: #ffbf00;
+}
